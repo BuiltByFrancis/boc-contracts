@@ -1,6 +1,18 @@
 # Compiler files
 cache/
 out/
+node_modules/*
+node_modules
+
+# Ignore Environment Variables!
+.env
+.env.prod
+
+# Ignore vscode logs
+.vscode/*.log
+
+# Ignore flattened files
+flattened.txt
 
 # Ignores development broadcast logs
 !/broadcast

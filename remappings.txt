@@ -1,0 +1,6 @@
+@ds=lib/forge-std/lib/ds-test/src/
+@solmate=lib/solmate/src/
+@std=lib/forge-std/src/
+@chainlink/=lib/chainlink-brownie-contracts/
+@openzeppelin-contracts/=lib/openzeppelin-contracts/
+ds-test=lib/forge-std/lib/ds-test/src/

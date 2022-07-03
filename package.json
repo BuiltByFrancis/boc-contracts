@@ -1,0 +1,26 @@
+{
+  "name": "boc-contracts",
+  "description": "",
+  "author": "BuiltByFrancis",
+  "license": "AGPL-3.0-only",
+  "version": "1.0.0",
+  "files": [
+    "src/**/*.sol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuiltByFrancis/boc-contracts.git"
+  },
+  "devDependencies": {
+    "hardhat": "^2.7.0",
+    "prettier": "^2.3.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.13"
+  },
+  "scripts": {
+    "setup": "make clean && make build",
+    "sync": "make update",
+    "test": "make test",
+    "snapshot": "make snapshot",
+    "lint": "make lint"
+  }
+}
